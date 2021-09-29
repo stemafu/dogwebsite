@@ -1,0 +1,188 @@
+body{
+    /*background-color: rgb(253, 101, 75);*/
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-style: normal;
+    font-weight: normal;
+
+    
+}
+
+p{
+    color:blue;
+    font-style: italic;
+}
+
+
+.text-title{
+    /* This class selector is selecting all elements that have the name
+    text-title to be styled using the rules that we set below*/
+
+    color:red;
+    text-decoration: underline;
+
+}
+
+#food-title{
+    font-size: 3em;
+}
+
+
+ol li{
+
+}
+
+table, th, td {
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+/*
+img{
+    width: 400px;
+    border-style: double;
+    border-width: 10px; /*top, right, bottom, and left width is 10px */
+/*
+    padding: 20px; top, right, bottom, and left padding is 20px 
+    margin: 200px;
+}*/
+
+h1{
+    /*border-style: solid;*/
+    
+    /*border-right-style: solid ;
+    border-right-width: 6px;
+    border-right-color: orange;
+    */
+
+    border-bottom: solid 6px orange;
+    /*border-width: 20px 10px 5px 30px;  20px top, 10px right, 5px bottom, 30px left*/
+
+    padding: 20px 10px 5px 30px; /* 20px top, 10px right, 5px bottom, 30px left paddings*/
+}
+
+#pname{
+    border-style: solid;
+    border-width: 20px 10px; /* 20px top and bottom, and 10px right and left*/
+    border-color:brown;
+    padding: 30px 25px;  /*padding top and bottom is 30px, and padding left and right is 25px;*/
+    /*
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-left: 25px;
+    padding-right: 25px;*/
+}
+
+
+.p{
+    background-color: yellow;
+    margin-top: 50px;
+    height:60px;
+}
+
+#nyxtext{
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+header{
+    background-color: rgb(49, 133, 202);
+}
+
+nav{
+    background-color: tomato;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+nav a{
+    padding-right: 20px;
+}
+
+main{
+    margin-top:10px;
+    background-color: pink;
+    border-top: 5px solid rgb(255, 255, 255);
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .column{
+
+    width: 30%;/**/
+    float:left;
+   
+
+    margin: 10px;
+    border: grey 2px solid;
+    padding: 5px;
+
+
+
+}
+
+#firstsec{
+    background-color: yellow;
+}
+
+#secondsec{
+    background-color: red;
+}
+#thirdsec{
+    background-color: white;
+}
+
+.column img{
+    width: 98%;
+}
+
+main .row{
+    overflow: hidden;
+    clear:both; 
+    /*This ensure that the element that comes after the floated element is pushed below
+    the floated element */
+
+
+}
+
+
+footer{
+    background-color: rgb(49, 133, 202);
+}
+
+/* We can be able to specify the border, or padding or margin for a specific side */
+
+
+/* Using flex box 
+*/
+
+.container{
+
+    display: flex;
+}
+
+
+.col{
+    padding:20px;
+}
+
+#col-first{
+    width:40%;
+    background-color: rgb(71, 71, 209);
+}
+
+#col-second{
+    width:60%;
+    background-color: grey;
+}

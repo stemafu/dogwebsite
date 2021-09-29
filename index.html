@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head id="test">
+        <title>My Best Friend</title>
+        <!-- This is my first comment.
+            Date modified: 08/31/2021
+            Modified by: Steven Fulakeza.
+            Description: This webpage is about my dog.
+            email:steven.fulakeza@lehman.cuny.edu
+        
+
+
+
+       Now that we have our CSS file, we need to make sure that this html page 
+        references that CSS files. How can we do that? 
+        We have to use the <linl> element inside this head tag to reference our CSS file.
+       -->
+       <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+       <link rel="stylesheet" href="css/mystyle.css">
+
+
+    </head>
+
+    <body>
+        <header>
+            <h1>USB - My Best Friend</h1>
+        </header>
+
+        <nav id="ourmenu">
+            <a href="https://www.lehman.edu/logins/">Logins</a>
+            <a href="contact.html">Contact USB</a>
+            <a href="pages/about.html">About</a>
+            <a href="https://www.cuny.edu/">CUNY</a>     
+        </nav>
+
+
+        <main>
+            <hr>
+            <!--<h2>USB - My Best Friend</h2>
+            <h3>USB - My Best Friend</h3>
+            <h4>USB - My Best Friend</h4>
+            <h5>USB - My Best Friend</h5>
+            <h6>USB - My Best Friend</h6>-->
+            <p id="pname">My dog is called USB.</p>
+            <p>My dog is the best in <span id="nyxtext" class="p">NYC</span>.</p>
+
+            <div class="row">
+
+                <div id="firstsec" class="column">
+                    <h2 class="text-title" id="top-activities-title">Top Five Activities that my dog likes:</h2>
+                    <ol>
+                        <li>Collecting trophies</li>
+                        <li>Watching TV</li>
+                        <li>Making the bed</li>
+                        <li>Swimming</li>
+                        <li>Music</li>
+                    </ol>
+                </div>
+
+
+
+                <div id="secondsec" class="column">
+                    <img src="usb.jpg" alt="This is USB's image">   
+                </div>
+
+
+                <div  id="thirdsec" class="column">
+                    <h2  id="food-title" class="text-title">Food that my Dogs likes:</h2>
+                    <ul>
+                        <li>Peanut Butter</li>
+                        <li>Cooked chicken</li>
+                        <li>Salmon</li>
+                        <li>Eggs</li>
+                    </ul>   
+                </div>        
+            </div>
+            <!-- When it comes to links, if you are in a folder
+            and the resource that you want to link, is a folder up
+            then you have to use ../ for back-->
+
+
+           
+
+            <!-- Let us now create unordered list below-->
+
+
+
+            <!-- Sometimes we want to create a list that has some ordering.
+            
+            We call this list an ordered list.
+            We use the <ol> tag to create an ordered list and the items to be listed 
+                are placed inside the <li> tag that goes inside the <ol> tag
+            
+            Example
+        -->
+
+
+        <!-- 
+
+            HTML id attribute
+            This is used to specify a unique id for an html element.
+            You cannot have more than one element with the same id in
+            an html document.
+        -->
+
+            <h2>My Dog  Schedule</h2>
+            <table>
+                <!-- The th tag is used to create table headers-->
+
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Name</th>
+                        <th>Time</th>
+                        <th>Status</th>
+                    </tr>
+            </thead>
+
+
+            <!-- the following is another
+            row -->
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Mary</td>
+                        <td>am or pm</td>
+                        <td> pee? poo?, nothing?</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Paul</td>
+                        <td>am</td>
+                        <td>nothing</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Wednesday</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Thursday</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td>Friday</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td>Sunday</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>       
+        </table>
+
+        <div class="container"> <!-- Start of container-->
+
+            <div  id="col-first" class="col">
+                <h2 class="text-title" id="top-activities-title">Top Five Activities that my dog likes:</h2>
+                <ol>
+                    <li>Collecting trophies</li>
+                    <li>Watching TV</li>
+                    <li>Making the bed</li>
+                    <li>Swimming</li>
+                    <li>Music</li>
+                </ol>
+            </div>
+
+
+
+            <div  id="col-second" class="col">
+                <h2  id="food-title" class="text-title">Food that my Dogs likes:</h2>
+                <ul>
+                    <li>Peanut Butter</li>
+                    <li>Cooked chicken</li>
+                    <li>Salmon</li>
+                    <li>Eggs</li>
+                </ul>   
+            </div>        
+        </div> <!-- end of container -->
+
+
+
+
+       </main>
+
+
+       <!--Below we add our footer for our webpage-->
+       <footer>
+           <p>All Rights Reserved!</p>
+
+           <address>
+               250 Bedford Park BlVD West, GI 211C<br>
+               Bronx, NY 10468
+           </address>
+       </footer>
+
+
+    </body>
+
+</html>
