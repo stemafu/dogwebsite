@@ -10,7 +10,6 @@ body{
     font-size: 1.6em;
     font-style: normal;
     font-weight: normal;
-
     
 }
 
@@ -30,7 +29,7 @@ p{
 }
 
 #food-title{
-    font-size: 3em;
+    font-size: 1.4em;
 }
 
 
@@ -69,15 +68,20 @@ h1{
 }
 
 #pname{
-    border-style: solid;
-    border-width: 20px 10px; /* 20px top and bottom, and 10px right and left*/
+   /*  border-style: solid;
+    border-width: 20px 10px;  20px top and bottom, and 10px right and left
     border-color:brown;
-    padding: 30px 25px;  /*padding top and bottom is 30px, and padding left and right is 25px;*/
-    /*
+    padding: 30px 25px;  padding top and bottom is 30px, and padding left and right is 25px;
+   
     padding-top: 30px;
     padding-bottom:30px;
     padding-left: 25px;
     padding-right: 25px;*/
+}
+
+#simple-bio{
+    margin-left:20px;
+    margin-right: 20px;
 }
 
 
@@ -117,10 +121,10 @@ main{
     margin-left: auto;
     margin-right: auto;
 }
-
+/*
 main .column{
 
-    width: 30%;/**/
+    width: 30%;
     float:left;
    
 
@@ -128,19 +132,41 @@ main .column{
     border: grey 2px solid;
     padding: 5px;
 
+    background: #ffffff;
 
 
+
+}*/
+
+.row{
+    display: flex;
+}
+
+main .column{
+    width: 33.33%;
+    border: grey 2px solid;
+    background: #ffffff;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 #firstsec{
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 #secondsec{
-    background-color: red;
+   /* background-color: red;*/
 }
 #thirdsec{
-    background-color: white;
+    /*background-color: white;*/
+    margin-right: 20px;
+}
+
+
+#schedule{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .column img{
@@ -169,7 +195,7 @@ footer{
 
 .container{
 
-    display: flex;
+    display: flex; /*flexible container */
 }
 
 
@@ -185,4 +211,64 @@ footer{
 #col-second{
     width:60%;
     background-color: grey;
+}
+
+/* Below we add simple media queries */
+@media all and (max-width: 500px){
+
+    footer{
+        background-color: yellowgreen;
+    }
+
+    main{
+        margin-top:10px;
+        background-color: pink;
+        border-top: 5px solid rgb(255, 255, 255);
+    
+        width: 100%;
+        /*margin-left: auto;
+        margin-right: auto;*/
+    }
+
+    .container{
+        display: block;
+    }
+
+    .col{
+       
+    }
+
+    
+    #col-second, #col-first{
+        width:100%;
+        margin: 10px;
+        border: grey 2px solid;
+        padding: 5px;
+    }
+
+    /*
+    #col-first{
+        width:100%;
+
+        margin: 10px;
+        border: grey 2px solid;
+        padding: 5px;
+    }*/
+
+    main .column{
+        width: 100%;/**/
+        float:left;
+
+        margin: 10px;
+        border: grey 2px solid;
+        padding: 5px;
+    }
+
+
+}
+
+
+/* 500px <=  your screen width <= 620px */
+@media all and (min-width: 500px) and (max-width: 620px){
+
 }
