@@ -107,11 +107,63 @@ nav{
     padding-bottom: 20px;
 }
 
+nav ul{
+    list-style-type:none;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    background-color: rgb(22, 18, 18) !important;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
+    width: 90%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+
+    margin: 0 auto 0 auto;
+  
+}
+
+nav li{
+    display: inline;
+    /*border: red 2px solid;*/
+    margin-right: 30px;
+}/**/
+/*
+nav li{
+    float: left;
+
+}
+*/
+nav a{
+    /*border: yellow 5px solid;*/
+    padding: 10px;
+    color: white;
+}
+
+.active{
+    background-color: yellowgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a:hover{
+    background-color: yellowgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* We can be able to get a horizontal navigation bar on the li by two ways
+1. We can use inline list items
+2. floating the list items
+*/
+
+/*
 nav a{
     padding-right: 20px;
 }
-
+*/
 main{
     margin-top:10px;
     background-color: pink;
@@ -262,6 +314,44 @@ footer{
         margin: 10px;
         border: grey 2px solid;
         padding: 5px;
+    }
+
+
+    nav ul{
+        /*list-style-type:none;
+        margin: 0;*/
+        /*padding: 0;
+        background-color: rgb(22, 18, 18) !important;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+        width: 90%;*/
+        /*margin-left: auto;
+        margin-right: auto;
+    
+        margin: 0 auto 0 auto;*/
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+      
+    }
+    
+    nav li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid grey;
+        margin-right: 0;
+       /* border: red 2px solid;
+        margin-right: 30px;*/
+    }/**/
+    
+    nav a{
+    
+        padding: 10px;
+    
     }
 
 
